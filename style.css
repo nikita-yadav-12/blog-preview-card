@@ -58,6 +58,9 @@ footer{
 .blog-category {
     display: inline-block;
     margin-bottom: 8px;
+    padding: 4px 12px;
+    background-color: #f4d04e;
+    border-radius: 4px;
 }
 
 .publish-date {
