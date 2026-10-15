@@ -19,7 +19,7 @@ body {
     line-height: 1.5;
 }
 
-img {
+.illustration {
     margin-bottom: 8px;
     border-radius: 12px;
 }
@@ -68,4 +68,9 @@ footer{
     margin-bottom: 12px;
 }
 
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 
