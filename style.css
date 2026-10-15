@@ -63,6 +63,10 @@ footer{
     border-radius: 4px;
 }
 
+.blog-title:hover, .blog-title:active {
+    color: #f4d04e;
+}
+
 .publish-date {
     color: #111111;
     margin-bottom: 12px;
