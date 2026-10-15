@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,4 +11,58 @@ body {
     background-color: #f4d04e;
     color: #6b6b6b;
     font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 1.5;
 }
+
+img {
+    margin-bottom: 8px;
+    border-radius: 12px;
+}
+
+span {
+    color: #111111;
+    font-weight: 800;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+h2 {
+    color: #111111;
+    margin-bottom: 12px;
+    font-weight: 800;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+/* CLASSES */
+
+.blog-card-container {
+    width: 384px;
+    background-color: #ffffff;
+    border: 1px solid #111111;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 9px 9px #111111;
+}
+
+.blog-category {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.publish-date {
+    color: #111111;
+    margin-bottom: 12px;
+}
+
+
