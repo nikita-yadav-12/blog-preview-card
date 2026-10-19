@@ -80,6 +80,16 @@ footer {
     padding: 0.4rem 1.2rem;
     background-color: #f4d04e;
     border-radius: 0.4rem;
+    color: #111111;
+    font-weight: 800;
+    font-size: 1.4rem;
+    text-decoration: none;
+
+}
+
+.blog-category:hover {
+    color: #f4d04e;
+    background-color: #111111;
 }
 
 .publish-date {
@@ -88,7 +98,12 @@ footer {
     font-size: 1.4rem;
 }
 
-.blog-title:hover {
+.blog-title a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.blog-title a:hover {
     color: #f4d04e;
 }
 
